@@ -23,7 +23,22 @@ def realizaroperacion():
         result["res"] = 0
         return result
 
+
+        restar=resta(val1,val2)
+
+        if restar is not False:
+        	result["restar"]=2
+        	return result	
+        result["restar"]=0
+        return result
+
+
         
+
+
+
+
+
 
 
 @app.route("/")

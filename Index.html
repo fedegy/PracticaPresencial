@@ -15,10 +15,12 @@
         <input type="text" id="B">
     </div><br>
     <div>
-        <button  type="button" onclick="suma()">Suma</button>
-        <button type="button" onclick="resta()">Resta</button>
-        <button type="button"onclick="multiplicacion()">Multiplicación</button>
-        <button type="button"onclick="division()">División</button>
+        <form id="formulario_op" role="form">
+        <button  type="button" onclick="suma()" name="sumar">Suma</button>
+        <button type="button" onclick="resta()" name="restar">Resta</button>
+        <button type="button"onclick="multiplicacion()" name="multi">Multiplicación</button>
+        <button type="button"onclick="division()" name="division">División</button>
+    </form>
     </div>
     <div>
         <p>Resultado</p>
@@ -28,6 +30,8 @@
     </div>
 
     <script>
+
+    
         function suma(){
             var a=document.querySelector('#A')
             var b=document.querySelector('#B')
@@ -44,6 +48,10 @@
         function division(){
 
         }
+
+
+        
+
 
     </script>
 
