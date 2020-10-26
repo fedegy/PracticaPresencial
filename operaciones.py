@@ -10,6 +10,15 @@ class operaciones:
 	def resta(valor1,valor2):
 		return self.valor1-self.valor2
 
+
+	def multiplicar(valor1,valor2):
+		return self.valor1*self.valor2
+
+
+	def division(valor1,valor2):
+		return self.valor1/self.valor2
+
+
 	def dump(self):
 		return{
 			'valor1':valor1,

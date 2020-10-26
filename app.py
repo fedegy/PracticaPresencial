@@ -33,8 +33,15 @@ def realizaroperacion():
         return result
 
 
-        
+        multi=multiplicar(val1,val2)
 
+        if multi is not False:
+        	result["multi"]=3
+        	return result	
+        result["restar"]=0
+        return result
+
+        divid=division(val)
 
 
 
